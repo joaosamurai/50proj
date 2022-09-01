@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.bg {
+    background: url('https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29yayUyMGRlc2t8ZW58MHx8MHx8&w=1000&q=80') no-repeat center center/cover ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100vw + 60px);
+    width: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
